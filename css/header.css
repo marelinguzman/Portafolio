@@ -6,13 +6,14 @@
     grid-column-start: 1;
     grid-column-end: 3;
     color: wheat;
-    border: 1px solid black;
+    border: 1px solid black;    
 }
 .logo{
     width: 5rem;
     height: 5rem;
     border-radius: 100%;
-    background-color:rgb(184, 245, 115);
+    background-color: #8997c9;
+    border: 3px solid #566496;
     color: black;
     font-size: 2rem;
     font-weight: 600;
@@ -22,7 +23,8 @@
 }
 .header nav{
     height: 5rem;
-    background-color:rgb(184, 245, 115);
+    background-color: #8997c9;
+    border: 3px solid #566496;
     color: black;
     font-size: 2rem;
     padding: 0px 5rem;
@@ -37,7 +39,8 @@
 .btn_header{
     width: 13rem;
     height: 5rem;
-    background-color:rgb(184, 245, 115);
+    background-color: #8997c9;
+    border: 3px solid #566496;
     color: black;
     border-radius: 3rem;
     font-size: 2rem;
