@@ -1,7 +1,7 @@
 .perfil{
     grid-column-start: 1;
     grid-column-end: 1;
-    border: 1px solid black;
+    border: 1px solid #d3d8eb;
 }
 .nombre_usuario{
     padding: 0.5rem;
@@ -10,14 +10,15 @@
     justify-content: space-evenly;
 }
 .logo1{
-    width: 5rem;
-    height: 5rem;
+    width: 4rem;
+    height: 4rem;
+
     border-radius: 100%;
     background-color: #8997c9;
     border: 3px solid #566496;
     color: black;
 
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 600;
     display: flex;
     align-items: center;

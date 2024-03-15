@@ -3,15 +3,6 @@
     height: 100vh;
     display: grid;
     grid-template-columns: 27rem 1fr;
-    grid-template-rows: 9rem 1fr;
+    grid-template-rows: 5rem 1fr;
     text-align: center;
-}
-.pagina{
-    grid-column-start: 2;
-    grid-column-end: 2; 
-    border: 1px solid black;
-
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(2, 1fr);
 }
