@@ -1,8 +1,17 @@
-.root{
-    width: 100%;
-    height: 100vh;
-    display: grid;
-    grid-template-columns: 27rem 1fr;
-    grid-template-rows: 5rem 1fr;
-    text-align: center;
-}
+    #root {
+        display: grid;
+        grid-template-columns: 25rem 1fr 0.3rem;
+        grid-template-rows: 5rem auto 1fr;
+        gap: 1rem;
+        column-gap: 2.3rem;
+    }
+
+    @media screen and (max-width: 720px) {
+        #root {
+            padding: 0 3%;
+            grid-template-columns: auto;
+            grid-template-rows: auto auto auto 1fr;
+            gap: 1rem;
+            column-gap: 2.3rem;
+        }
+    }
