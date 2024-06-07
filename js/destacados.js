@@ -1,10 +1,11 @@
-import{ lista_webs } from "./data_web.js";
+import { lista_webs } from "./data_web.js";
 
 lista_webs.forEach((cada_web)=>{
     let div_paginas = document.querySelector(".paginas");
 
     let div_web = document.createElement("div");
     div_web.innerHTML = `
+
             <a href="${cada_web.github_page}">
                 <img src="${cada_web.img}" alt="">
                 <h2 class="titulo">${cada_web.nombre}</h2>
